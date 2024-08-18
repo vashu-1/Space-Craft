@@ -1,0 +1,475 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(./images/main.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(35, 34, 34, 0.6);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-position: sticky;
+}
+
+.logo {
+  margin-top: 5px;
+  margin-left: 40px;
+  height: 70px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  /* padding: 30px; */
+
+  font-size: 22px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+}
+nav ul li a:hover {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.text-content {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  padding-top: 50px;
+  text-align: center;
+}
+.content {
+  color: #fff;
+  top: 50%;
+  transform: translateY(140px);
+}
+.content h1 {
+  font-size: 60px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+}
+.content h3 {
+  font-size: 40px;
+  margin: 30px 0;
+  font-weight: 300;
+  text-align: center;
+}
+.hero-btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 40px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.project {
+  width: 60%;
+  margin: auto;
+}
+.project h2 {
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  background-color: rgba(58, 57, 57, 0.6);
+  color: #fff;
+  padding: 10px;
+}
+.images {
+  /* width: 100%; */
+  display: flex;
+  height: 150px;
+}
+.images img {
+  flex: 1;
+  width: 100%;
+}
+
+/* ---------Mission----------- */
+.mission {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  background-color: #900c3f;
+}
+.mission h2 {
+  font-family: "Audiowide", sans-serif;
+  padding: 15px 0;
+  font-size: 30px;
+  color: #fff;
+}
+.mission p {
+  color: #fff;
+  font-size: 18px;
+}
+.part {
+  width: 100%;
+  height: 40%;
+  background-color: #000;
+}
+.row {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.video {
+  flex-basis: 48%;
+  text-align: start;
+  color: #fff;
+}
+.video h1 {
+  font-family: "Audiowide", sans-serif;
+  padding: 15px 0;
+}
+.video img {
+  width: 100%;
+  height: 200px;
+}
+.blog {
+  flex-basis: 48%;
+  text-align: left;
+  color: #fff;
+  position: relative;
+}
+.blog h1 {
+  font-family: "Audiowide", sans-serif;
+  padding: 15px 0;
+}
+.section {
+  display: flex;
+  padding: 30px 0;
+}
+.section h3 {
+  margin-left: 30px;
+  font-size: 25px;
+}
+.section span {
+  margin-left: 30px;
+  font-size: 20px;
+}
+.section img {
+  height: 80px;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 30px;
+  background-color: rgba(203, 77, 237, 0.6);
+  position: absolute;
+  right: 0;
+  margin-top: 60px;
+}
+.contact {
+  width: 100%;
+  height: 100px;
+  background-color: #5d5b5b;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.contact h1 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  word-spacing: 5px;
+}
+.fa-brands {
+  padding: 30px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.about {
+  background-image: url(./images/space\ earth.jpg);
+  background-position: center;
+  background-size: 100%;
+  min-height: 400px;
+}
+.about h1 {
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  padding: 3%;
+  font-size: 50px;
+  color: #fff;
+}
+.about h2 {
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 300;
+  word-spacing: 5px;
+}
+.about p {
+  padding: 20px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+.details {
+  width: 100%;
+  background-color: #900c3f;
+  height: 250px;
+  justify-content: center;
+  color: #fff;
+}
+.details h2 {
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif;
+  padding: 40px 0;
+}
+.details p {
+  font-size: 18px;
+  line-height: 23px;
+}
+.details img {
+  float: right;
+  height: 150px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+.text {
+  width: 63%;
+  margin: auto;
+  position: relative;
+  /* padding: 40px; */
+}
+.hero {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+.idea {
+  width: 60%;
+  margin: auto;
+  padding: 30px 0;
+  text-align: start;
+  display: flex;
+}
+.words h2 {
+  margin-top: 40px;
+  padding: 30px 10px;
+  font-size: 35px;
+  color: #fff;
+  font-family: "Audiowide", sans-serif;
+}
+.words p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 23px;
+  padding-left: 10px;
+}
+
+/* ---------Project--------- */
+.project1 {
+  background-color: #000;
+  min-height: 100vh;
+  width: 100%;
+}
+.project1 h1 {
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  padding: 40px;
+  color: #fff;
+  font-size: 40px;
+}
+.content1 {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  display: flex;
+}
+.content1 img {
+  height: 260px;
+  padding-bottom: 30px;
+}
+.content1 h3 {
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+  color: #fff;
+  padding: 30px;
+  padding-top: 0;
+}
+.content1 p {
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+  padding: 0 30px;
+  font-family: "poppins", sans-serif;
+}
+.separate {
+  color: #fff;
+  margin: 40px 225px;
+  width: 70%;
+}
+.engage {
+  padding: 0px 0 70px 70px;
+}
+.engage1 {
+  padding: 0px 0 70px 300px;
+}
+
+/* -----------BLOG--------- */
+.blog {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+}
+.blog h1 {
+  padding: 40px;
+  color: #fff;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+}
+.content2 {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.newsletter {
+  flex-basis: 50%;
+  text-align: start;
+  position: relative;
+}
+.newsletter h3 {
+  font-family: "Audiowide", sans-serif;
+
+  font-size: 25px;
+  color: #fff;
+  margin-top: 30px;
+}
+.newsletter h5 {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.newsletter p {
+  font-size: 15px;
+  line-height: 23px;
+  padding-bottom: 70px;
+}
+.newsletter hr {
+  margin: 40px 0;
+}
+.post {
+  margin-left: 40px;
+  flex-basis: 40%;
+  flex-direction: column;
+  color: #fff;
+  text-align: left;
+}
+.post h1 {
+  font-size: 35px;
+  font-family: "Audiowide", sans-serif;
+  padding: 0 0 10px 0;
+}
+.post h3 {
+  font-size: 25px;
+  font-family: "Audiowide", sans-serif;
+}
+.post h5 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.post hr {
+  margin: 40px 0;
+}
+.recent {
+  display: flex;
+  width: 100%;
+}
+.recent img {
+  flex-basis: 30%;
+}
+.part {
+  flex-basis: 60%;
+  padding: 5px 10px;
+}
+.part h3 {
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+  padding: 10px 15px;
+  font-weight: 400;
+}
+.recent h5 {
+  font-size: 18px;
+  padding-left: 15px;
+}
+.recent img {
+  height: 100px;
+  padding-bottom: 40px;
+}
+.sat-disc {
+  height: 241px;
+  width: 560px;
+}
+.button1 {
+  padding: 10px 20px;
+  background-color: rgba(203, 77, 237, 0.6);
+  border: 1px solid white;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  bottom: 560px;
+}
+.button2 {
+  padding: 10px 20px;
+  background-color: rgba(203, 77, 237, 0.6);
+  border: 1px solid white;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+.contactus {
+  min-height: 100vh;
+  background-color: #000;
+  text-align: center;
+}
+
+.contactus h1 {
+  font-size: 50px;
+  font-family: "Audiowide", sans-serif;
+  color: #fff;
+  padding: 50px;
+}
+.contactus h3 {
+  font-size: 30px;
+  /* font-family: "Poppins", sans-serif; */
+  color: #fff;
+  padding: 30px;
+  word-spacing: 7px;
+}
+.contact-col input,
+.contact-col textarea {
+  width: 60%;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 17px;
+}
+.red-btn {
+  padding: 10px 40px;
+  font-family: "Audiowide", sans-serif;
+  background-color: rgba(203, 77, 237, 0.6);
+  color: #fff;
+  font-size: 20px;
+}
